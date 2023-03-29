@@ -15,6 +15,7 @@ header {
 
 img {
     object-fit: contain;
+    margin: 10 10 10 10;
 }
 
 header img {
@@ -68,7 +69,7 @@ h1 {
 }
 
 h2 {
-    margin: 0 0 8px 0;
+    margin: 10 0 8px 0;
     font-size: 24px;
     text-align: left;
 
@@ -117,7 +118,7 @@ a:hover {
 }
 
 .information {
-    margin: 0 40px 0 20px;
+    margin: 0 40px 0 100px;
 }
 
 .left{
@@ -145,8 +146,12 @@ a:hover {
 .mentor {
     margin-top: 10px;
     background-image: linear-gradient(#fff 25% , rgba(9, 173, 199, 0.5) 25%);
-    padding: 0 80px;
     display: flex;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: row;
 }
 
 .mentor .information {
@@ -167,4 +172,24 @@ a:hover {
 
 .Pshani {
     margin: 10px 0 10px;
+}
+
+.ayelet {
+    margin: 20 120 20 0;
+}
+
+.monika {
+    margin: 0 20 20 110;
+}
+
+.hadar {
+    margin: 0 20 20 30;
+}
+
+.avivit {
+    margin: 20 120 0 0;
+}
+
+.shani {
+    margin: 0 20 20 110;
 }
